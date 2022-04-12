@@ -1,10 +1,12 @@
 package basicconcepts.support_code;
 
+
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class BinarySearchAlgorithm {
     public static int rank(int key, int[] a ) {
