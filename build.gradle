@@ -5,14 +5,28 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+//repositories {
+//    mavenCentral()
+//    maven {
+//        url 'https://dl.bintray.com/algs4/maven/'
+//    }
+//}
+//
+//dependencies {
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+//    implementation 'edu.princeton.cs:algs4:1.0.4'
+//}
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    implementation 'edu.princeton.cs:algs4:1.0.3'
 }
+
 
 test {
     useJUnitPlatform()

@@ -1,4 +1,4 @@
-package basicconcepts.oneonetwentyseven.main;
+package basicconcepts.one.one.twentyseven.main;
 
 public class Solution {
     static int counter = 0;

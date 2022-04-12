@@ -1,4 +1,4 @@
-package basicconcepts.oneonetwentysix.main;
+package basicconcepts.one.one.twentysix.main;
 
 //if (a > b) { t = a; a = b; b = t; }
 //if (a > c) { t = a; a = c; c = t; }
