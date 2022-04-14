@@ -1,5 +1,7 @@
 package basicconcepts.one.one.twentynine.main;
 
+import basicconcepts.support_code.SupportMethods;
+
 import java.util.Random;
 
 public class Solution implements SupportMethods {

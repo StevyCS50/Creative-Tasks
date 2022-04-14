@@ -1,9 +1,9 @@
-package basicconcepts.one.one.twentynine.main;
+package basicconcepts.support_code;
 
 import java.util.Random;
 
 public interface SupportMethods {
-    default int getRandomNumber(int min, int max) {
+    static int getRandomNumber(int min, int max) {
         Random random = new Random();
         return random.nextInt(max - min) + min;
     }
